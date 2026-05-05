@@ -53,7 +53,8 @@
   },
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/light.svg"
+    "dark": "/logo/light.svg",
+    "href": "https://reaperx.pro/images/logo/no-text-space.png"
   },
   "navbar": {
     "links": [
