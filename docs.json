@@ -41,6 +41,7 @@
             "group": "Troubleshooting",
             "icon": "scroll",
             "pages": [
+              "untitled-page",
               "auto-retry-not-working",
               "why-am-i-dying-on-colossal",
               "identifier-mismatch",
