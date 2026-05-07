@@ -9,25 +9,6 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Purchase Scripts",
-          "icon": "book-open-cover",
-          "href": "https://getreaperx.mysellauth.com/"
-        },
-        {
-          "anchor": "Discord Community",
-          "icon": "slack",
-          "href": "https://discord.gg/5pFjXEhA5k"
-        },
-        {
-          "anchor": "YouTube Channel",
-          "icon": "newspaper",
-          "href": "https://www.youtube.com/@XenonHub"
-        }
-      ]
-    },
     "tabs": [
       {
         "tab": "Docs",
