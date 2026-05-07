@@ -36,7 +36,8 @@
             "group": "Introduction",
             "icon": "book-bookmark",
             "pages": [
-              "introduction"
+              "introduction",
+              "compatibility"
             ]
           },
           {
