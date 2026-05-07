@@ -33,34 +33,39 @@
         "tab": "Docs",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Introduction",
             "icon": "book-bookmark",
             "pages": [
-              "introduction",
+              "introduction"
+            ]
+          },
+          {
+            "group": "Getting Started",
+            "icon": "key-skeleton",
+            "pages": [
               "quickstart"
             ]
           },
           {
-            "group": "Script Docs",
+            "group": "Farming Configuration",
             "pages": [
               "auto-farm",
               "webhook"
             ]
           },
           {
-            "group": "Script Issues",
+            "group": "Troubleshooting",
             "icon": "scroll",
             "pages": [
               "identifier-mismatch",
-              "executor-not-support"
+              "executor-not-support",
+              "downgrade"
             ]
           },
           {
-            "group": "Troubleshooting",
-            "icon": "computer",
-            "pages": [
-              "downgrade"
-            ]
+            "group": "FAQ",
+            "icon": "question",
+            "pages": []
           }
         ]
       }
