@@ -101,5 +101,8 @@
       "youtube": "https://www.youtube.com/@XenonHub/videos",
       "discord": "https://discord.gg/5pFjXEhA5k"
     }
+  },
+  "background": {
+    "decoration": "grid"
   }
 }
