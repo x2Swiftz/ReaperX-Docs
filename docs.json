@@ -64,9 +64,14 @@
             ]
           },
           {
-            "group": "FAQ",
+            "group": "Informations",
             "icon": "question",
-            "pages": []
+            "pages": [
+              "about-us",
+              "faq",
+              "terms-of-services",
+              "support"
+            ]
           }
         ]
       }
