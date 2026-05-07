@@ -37,8 +37,13 @@
             "icon": "book-bookmark",
             "pages": [
               "introduction",
-              "untitled-page",
               "quickstart"
+            ]
+          },
+          {
+            "group": "Script Docs",
+            "pages": [
+              "auto-farm"
             ]
           },
           {
@@ -52,9 +57,7 @@
           {
             "group": "Executor Issues",
             "icon": "computer",
-            "pages": [
-              "downgrade-roblox"
-            ]
+            "pages": []
           }
         ]
       }
@@ -75,7 +78,7 @@
     "primary": {
       "type": "button",
       "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "href": "https://discord.gg/4VnURTqFRX"
     }
   },
   "description": "This comprehensive resource provides everything you need to successfully use ReaperX scripts, from initial setup to configuration. ",
