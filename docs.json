@@ -3,9 +3,9 @@
   "theme": "mint",
   "name": "ReaperX",
   "colors": {
-    "primary": "#00f8ff",
-    "light": "#06a3c9",
-    "dark": "#143580"
+    "primary": "#00CFFF",
+    "light": "#12B7E8",
+    "dark": "#102B52"
   },
   "favicon": "/favicon.svg",
   "navigation": {
