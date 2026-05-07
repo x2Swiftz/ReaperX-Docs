@@ -51,6 +51,8 @@
             "group": "Farming Configuration",
             "pages": [
               "auto-farm",
+              "auto-farm-raids",
+              "auto-thunder-spears",
               "webhook"
             ]
           },
@@ -58,6 +60,8 @@
             "group": "Troubleshooting",
             "icon": "scroll",
             "pages": [
+              "auto-retry-not-working",
+              "why-am-i-dying-on-colossal",
               "identifier-mismatch",
               "executor-not-support",
               "downgrade"
