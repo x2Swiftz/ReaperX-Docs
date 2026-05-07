@@ -30,21 +30,30 @@
     },
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Docs",
         "groups": [
           {
             "group": "Get Started",
+            "icon": "book-bookmark",
             "pages": [
               "introduction",
-              "quickstart",
-              "untitled-page"
+              "untitled-page",
+              "quickstart"
             ]
           },
           {
             "group": "Script Issues",
+            "icon": "scroll",
             "pages": [
               "identifier-mismatch",
               "executor-not-support"
+            ]
+          },
+          {
+            "group": "Executor Issues",
+            "icon": "computer",
+            "pages": [
+              "downgrade-roblox"
             ]
           }
         ]
