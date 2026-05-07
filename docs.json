@@ -43,7 +43,8 @@
           {
             "group": "Script Docs",
             "pages": [
-              "auto-farm"
+              "auto-farm",
+              "webhook"
             ]
           },
           {
@@ -55,9 +56,11 @@
             ]
           },
           {
-            "group": "Executor Issues",
+            "group": "Troubleshooting",
             "icon": "computer",
-            "pages": []
+            "pages": [
+              "downgrade"
+            ]
           }
         ]
       }
