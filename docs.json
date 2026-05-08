@@ -74,7 +74,8 @@
             "icon": "key-skeleton",
             "pages": [
               "redeem-keys-th",
-              "redeem-keys-th-copied-1"
+              "redeem-keys-th-copied-1",
+              "redeem-keys-th-copied-2"
             ]
           },
           {
@@ -92,8 +93,6 @@
               "auto-join-not-works-th",
               "auto-retry-not-works-th",
               "why-am-i-dying-on-colossal-th",
-              "identifier-mismatch-th",
-              "executor-not-support-th",
               "downgrade-th"
             ]
           },
