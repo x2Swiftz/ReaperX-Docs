@@ -53,8 +53,8 @@
             "pages": [
               "about-us",
               "faq",
-              "tos",
-              "support"
+              "support",
+              "tos"
             ]
           }
         ]
@@ -107,9 +107,9 @@
           {
             "group": "ข้อมูลเพิ่มเติม",
             "pages": [
+              "support-th",
               "faq-th",
-              "tos-th",
-              "support-th"
+              "tos-th"
             ]
           }
         ]
