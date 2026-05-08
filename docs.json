@@ -15,7 +15,6 @@
         "groups": [
           {
             "group": "Introduction",
-            "icon": "book-bookmark",
             "pages": [
               "Overview",
               "compatibility"
@@ -30,7 +29,6 @@
           },
           {
             "group": "Farming Configuration",
-            "icon": "gear",
             "pages": [
               "auto-farm",
               "auto-farm-raids",
@@ -41,7 +39,6 @@
           },
           {
             "group": "Troubleshooting",
-            "icon": "scroll",
             "pages": [
               "auto-join-not-works",
               "auto-retry-not-works",
@@ -53,7 +50,6 @@
           },
           {
             "group": "Informations",
-            "icon": "question",
             "pages": [
               "about-us",
               "faq",
