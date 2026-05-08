@@ -17,7 +17,7 @@
             "group": "Introduction",
             "icon": "book-bookmark",
             "pages": [
-              "introduction",
+              "Overview",
               "compatibility"
             ]
           },
@@ -25,7 +25,7 @@
             "group": "Getting Started",
             "icon": "key-skeleton",
             "pages": [
-              "quickstart"
+              "redeem-keys"
             ]
           },
           {
@@ -35,16 +35,16 @@
               "auto-farm",
               "auto-farm-raids",
               "auto-thunder-spears",
-              "webhook-copied-1",
-              "webhook"
+              "autoexec-setup",
+              "webhook-setup"
             ]
           },
           {
             "group": "Troubleshooting",
             "icon": "scroll",
             "pages": [
-              "untitled-page",
-              "auto-retry-not-working",
+              "auto-join-not-works",
+              "auto-retry-not-works",
               "why-am-i-dying-on-colossal",
               "identifier-mismatch",
               "executor-not-support",
@@ -57,7 +57,7 @@
             "pages": [
               "about-us",
               "faq",
-              "terms-of-services",
+              "tos",
               "support"
             ]
           }
