@@ -65,45 +65,45 @@
           {
             "group": "ยินดีต้อนรับ",
             "pages": [
-              "Overview-copied-1",
-              "compatibility-copied-1"
+              "Overview-th",
+              "compatibility-th"
             ]
           },
           {
             "group": "เริ่มต้นการใช้งาน",
             "icon": "key-skeleton",
             "pages": [
-              "redeem-keys-copied-1"
+              "redeem-keys-th"
             ]
           },
           {
             "group": "รวมวิธีการใช้งานต่างๆ",
             "pages": [
-              "auto-farm-copied-1",
-              "auto-farm-raids-copied-1",
-              "auto-thunder-spears-copied-1",
-              "autoexec-setup-copied-1",
-              "webhook-setup-copied-1"
+              "auto-farm-th",
+              "auto-farm-raids-th",
+              "auto-thunder-spears-th",
+              "autoexec-setup-th",
+              "webhook-setup-th"
             ]
           },
           {
             "group": "รวมปัญหาต่างๆ",
             "pages": [
-              "auto-join-not-works-copied-1",
-              "auto-retry-not-works-copied-1",
-              "why-am-i-dying-on-colossal-copied-1",
-              "identifier-mismatch-copied-1",
-              "executor-not-support-copied-1",
-              "downgrade-copied-1"
+              "auto-join-not-works-th",
+              "auto-retry-not-works-th",
+              "why-am-i-dying-on-colossal-th",
+              "identifier-mismatch-th",
+              "executor-not-support-th",
+              "downgrade-th"
             ]
           },
           {
             "group": "Informations",
             "pages": [
-              "about-us-copied-1",
-              "faq-copied-1",
-              "tos-copied-1",
-              "support-copied-1"
+              "about-us-th",
+              "faq-th",
+              "tos-th",
+              "support-th"
             ]
           }
         ]
