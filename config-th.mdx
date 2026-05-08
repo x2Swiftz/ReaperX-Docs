@@ -1,0 +1,117 @@
+---
+title: "คอนฟิกไก่ตัน"
+icon: "users"
+description: "คอนฟิกไก่ตัน ใช้ได้เฉพาะลูกค้าที่ซื้อสคริปต์ AOTR เวอร์ชั่นไก่ตันเท่านั้น ลูกค้าที่ซื้อสคริปต์ตัวปกติไม่สามารถใช้งานได้ หากมีข้อสงสัยอะไรเพิ่มเติม กรุณาสอบถามแอดมินได้เลย"
+---
+
+```java
+getgenv().Configs = {
+    ['Auto Thunder Spears'] = true,
+    ['Auto Prestige'] = {
+        ['Enabled'] = true,
+        ['Prestige Stop At'] = 5,
+        ['Gold Requirement'] = {
+            ['Prestige 1'] = 0,
+            ['Prestige 2'] = 0,
+            ['Prestige 3'] = 0,
+            ['Prestige 4'] = 0,
+            ['Prestige 5'] = 0,
+            ['Prestige 6'] = 0,
+        }
+    },
+    ['Farm Slot'] = 'A',
+    ['Colossal Raid'] = true,
+    ['Families'] = {
+        ['Auto Roll'] = {
+            ['Enabled'] = false,
+            ['Lock Spins'] = 0,
+            ['Families'] = {
+                'Fritz',
+                'Helos',
+                'Ackerman',
+            },
+        },
+        ['Auto Storage'] = {
+            ['Enabled'] = false,
+            ['Families'] = {
+
+
+            },
+        },
+
+    },
+    ['Craft Perks'] = {
+        ['Enabled'] = true,
+        ['Chance'] = {
+            ['Rare'] = 100,
+            ['Epic'] = 100,
+            ['Legendary'] = 100,
+            ['Mythic'] = 100,
+        },
+        ['Craft Rare'] = false,
+        ['Craft Epic'] = false,
+        ['Craft Legendary'] = true,
+        ['Craft Mythic'] = false,
+    },
+    ['Equip Perks'] = { 
+        ['Auto Equip Perks'] = true,
+        ['Body Slot'] = {
+            'Heavenly Restriction', -- // Mythic
+            'Maximum Firepower', -- // Mythic
+            'Perfect Soul', -- // Legendary
+            'Perfect Form', -- // Legendary
+        },
+        ['Offense Slot'] = {
+            'Kengo', -- // Mythic
+            'Unparalleled Strength', -- // Legendary
+            'Peerless Focus', -- // Legendary
+        },
+        ['Defense Slot'] = {
+            'Immortal', -- // Mythic
+            'Font of Vitality', -- // Legendary
+        },
+        ['Support Slot'] = {
+            'Tatsujin', -- // Mythic
+            'Soulfeed', -- // Mythic
+            'Gear Master', -- // Legendary
+        },
+    },
+    ['Skill Trees'] = {
+        ['Enabled'] = true,
+        ['Left'] = {
+            ['Enabled'] = true,
+            ['Skill'] = 'Regen VI',
+        },
+        ['Middle'] = {
+            ['Enabled'] = true,
+            ['Skill'] = 'Damage V',
+        },
+        ['Right'] = {
+            ['Enabled'] = true,
+            ['Skill'] = 'Health XI',
+        },
+        ['Upgrade Priority'] = {
+            ['Left'] = 9,
+            ['Middle'] = 10,
+            ['Right'] = 8,
+        },
+    },
+    ['Join Private Server'] = {
+         ['Enabled'] = false,
+         ['Server Code'] = '',
+    },
+    
+    ['Performance'] = {
+        ['FPS Boost'] = true,
+        ['FPS Lock'] = {
+            ['Enabled'] = false,
+            ['FPS'] = 15,
+        },
+    },
+
+    ['Webhook'] = {
+        ['Enabled'] = false,
+        ['Url'] = '',
+    },
+}
+```

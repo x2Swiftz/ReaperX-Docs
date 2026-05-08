@@ -97,7 +97,15 @@
             ]
           },
           {
-            "group": "Informations",
+            "group": "สำหรับคนใช้ไก่ตัน",
+            "pages": [
+              "config-th",
+              "perks-th",
+              "familys-th"
+            ]
+          },
+          {
+            "group": "ข้อมูลเพิ่มเติม",
             "pages": [
               "about-us-th",
               "faq-th",
