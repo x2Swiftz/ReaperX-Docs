@@ -3,28 +3,17 @@ title: "วิธีใช้งาน Auto Farm"
 icon: "robot"
 ---
 
-### ✅ Start From Level 1
+## ✅ เริ่มตั้งแต่เลเวล 1
 
-Go to the **Lobby** tab and enable both `Select Slot` and `Auto Select Slot` first.\
-This helps the script choose the correct character for farming…
+ไปที่แท็บ Lobby ให้กด `Select Slot` กับ `Auto Select Slot` ก่อน เพื่อให้มันเลือกตัวละครที่เราจะให้เข้าไปฟาร์มได้ถูก เผื่อเราใช้โปรแกรมรีจอย แล้วกรณีที่ Roblox มันหลุด มันจะรีจอยกลับเข้าไปให้ มันก็จะเลือกตัวให้เลย ตั้งแต่ตอนเข้าเกมไป แค่นี้ก็สบายชิลๆแล้วไม่ต้องกังวลว่า จะต้องตื่นเข้ามาเปิดใหม่
 
 <Tip>
   แนะนำให้ตั้ง Auto Join Private Server เพราะมันจะได้ 5% EXP, GOLD, and LUCK เพิ่ม
 </Tip>
 
-<img
-  src="/images/image-20.png"
-  alt="Image"
-  title="Image"
-  className="mx-auto"
-  style={{ width:"69%" }}
-/>
+### จากนั้นจะให้มันลงด่านยังไง?
 
-If you use an auto rejoin program and Roblox crashes or disconnects, it will automatically rejoin and select your character for you right away when entering the game. Super easy and stress-free — no need to wake up and reopen everything again.
-
-Now, how do you make it enter stages automatically?
-
-Enable `Auto Select Boost Mission` so it joins the current **Boost Rewards** stage automatically.
+`ให้เปิด Auto Select Boost Mission` เพื่อให้มันเข้าด่าน Boost Rewards ในตอนนั้น และเปิด `Auto Select Best Grade` เพื่อให้มันเลือกความยากที่รหัสนั้นเข้าได้ ถ้าเลเวลสูงแล้วมันจะเข้าด่านยากขึ้นให้เรื่อยๆ
 
 <Tip>
   แนะนำติ๊ก Modifier ให้หมดเลย ยกเว้น 2 อันล่าง (Boring, Simple)
@@ -38,16 +27,9 @@ Enable `Auto Select Boost Mission` so it joins the current **Boost Rewards** sta
   style={{ width:"70%" }}
 />
 
-Also enable `Auto Select Best Grade` so it picks the highest difficulty your account can enter. As your level gets higher, it will automatically join harder missions over time, but...
+### 🔄 จะเช็คยังไงละว่าให้มันไปด่านที่ยากกว่าเดิม
 
-### 🔄 How Do I Make It Move to Harder Stages?
-
-Set `Current Retry` to any number you want.\
-Personally, I use **5**.
-
-That means after replaying the stage 5 times, the script will return to the Lobby and switch to a harder stage or another stage that currently has Boost Rewards.
-
-Most importantly, don’t forget to enable `Auto Leave When Retry Complete` or this feature will not work.
+ต้องปรับ `Current Retry` เท่าไหร่ก็ได้ ส่วนตัวผมตั้งไว้ 5 ก็คือ กดเล่นซ้ำครบ 5 ครั้ง มันจะกลับไปหน้า Lobby เพื่อไปเปลี่ยนเป็นด่านที่ยากขึ้นให้ หรือเข้าด่านที่ปัจจุบันมี Boost Rewards อยู่ ที่สำคัญอย่าลืมเปิด `Auto Leave When Retry Complete` ด้วยเพื่อใช้งานฟังชั่นตัวนี้
 
 <img
   src="/images/image-22.png"
@@ -57,35 +39,32 @@ Most importantly, don’t forget to enable `Auto Leave When Retry Complete` or t
   style={{ width:"74%" }}
 />
 
-### ⚙️ After Everything Is Ready
+### ⚙️ หลังจากเซ็ตอะไรให้พร้อมแล้ว
 
-Go to the `Auto Farm` tab and enable:
+ไปที่แท็บ `Auto Farm` จากนั้นกดเปิดฟังชั่น:
 
 - `Auto Farm`
 - `Auto Reload`
 - `Auto Refills`
 
 <Tip>
-  If you want to use Thunder Spears, you can enable `Auto Equip Thunder Spears` in the `Lobby` tab.
+  ถ้าอยากให้ใช้หอกในการฟาร์มให้เปิด `Auto Equip Thunder Spears`ในแท็บ `Lobby` 
 </Tip>
 
 <Warning>
   Then, to make it replay forever, make sure to also enable `Auto Retry` so it works together with the `Auto Leave When Retry Complete` feature.
 </Warning>
 
-### 🛡️ If You Want Safer Farming
+### 🛡️ ฟาร์มยังไงให้ปลอดภัยไม่โดนแบน
 
-Of course our script is already safe, but I recommend setting **Safe Time** to around **25 seconds**.\
-You can lower it if you want.
+แน่นอนว่าสคริปต์ของเราปลอดภัยอยู่แล้ว แต่แนะนำให้ปรับ Safe Time อยู่ที่ 25 วินาที จะปรับต่ำกว่านี้ก็ได้แล้วแต่คุณ
 
-### 🚀 How to Farm Faster
+### 🚀 ทำยังไงให้มันฟาร์มไวกว่าเดิม
 
-I recommend enabling both:
+ผมแนะนำให้เปิดฟังชั่น ซื้อขวด Potion กับใช้ขวด Potion
 
 - `Auto Use Potions`
 - `Auto Buy Potion`
-
-This can make your farming around **2x faster**.
 
 <img
   src="/images/image-23.png"
@@ -95,7 +74,7 @@ This can make your farming around **2x faster**.
   style={{ width:"69%" }}
 />
 
-Also, make sure to enable `Auto Upgrade Gear`.
+อย่าลืมเปิด `Auto Upgrade Gear`ด้วย
 
 <img
   src="/images/image-24.png"
@@ -105,25 +84,17 @@ Also, make sure to enable `Auto Upgrade Gear`.
   style={{ width:"69%" }}
 />
 
-It will automatically spend Gold to upgrade your gear whenever you return to the Lobby.\
-Keep in mind that gear cannot be upgraded while inside a Mission.
+มันจะใช้ Gold อัปเกรดให้ เมื่อตอนเรากลับมา Lobby ซึ่งมันไม่สามารถอัปเกรดระหว่างอยู่ใน Mission ได้นะ
 
 <Tip>
-  I recommend using ODM Blades for farming instead of Thunder Spears, because new accounts usually have very limited Spear ammo.
+  แนะนำใช้ดาบ ODM ฟาร์มดีกว่าหอกนะ เพราะหอกอ่ะถ้าคุณพึ่งเริ่มต้นแรกๆ มันมีจำนวนจำกัด
 </Tip>
 
-### 👀 Recommended Setting While Watching the Farm
+### 👀  คำแนะนำเวลาเปิดฟาร์ม
 
-If you leave the farm running and want to watch the gameplay sometimes, enable `Auto Hide UI` in the `Settings` tab.
+บางทีเปิดฟาร์มไว้แล้วอยากมานั่งดู ให้เปิด `Auto Hide UI` อยู่ในแท็บ `Settings` มันจะได้ปิดเมนูโปรให้ทุกครั้งที่เรารันสคริปต์ มันจะไม่บังนั่นแหละเอาง่ายๆ
 
-This will automatically hide the script menu every time you run the script, so the UI won’t block your screen.
-
-Enabling `White Screen` is recommended because when you minimize Roblox, it helps reduce GPU usage.
-
-Most importantly, if you are running multiple Roblox windows, I recommend setting the `FPS Limit` to **15**.\
-I do not recommend going lower than this because it can make farming significantly slower.
-
-If you are only running one Roblox window, setting the FPS Limit to **30** is already enough.
+ถ้าอยากพับจอฟาร์มยาวๆ และเล่นเกมอื่นไปด้วย ให้ตั้ง FPS Lock ไว้ที่ 15 ไม่ก็ 30 ถ้าเปิดเยอะก็ 15 พอ
 
 <img
   src="/images/image-25.png"
