@@ -73,7 +73,8 @@
             "group": "เริ่มต้นการใช้งาน",
             "icon": "key-skeleton",
             "pages": [
-              "redeem-keys-th"
+              "redeem-keys-th",
+              "redeem-keys-th-copied-1"
             ]
           },
           {
@@ -132,5 +133,8 @@
   },
   "background": {
     "decoration": "grid"
+  },
+  "thumbnails": {
+    "background": "/images/hero-dark.png"
   }
 }
