@@ -37,7 +37,7 @@ getgenv().Configs = {
         'THANKSFORSTAYINGWITHUS',
         'CHRISTMAS2025',
         'LIKES1M',
-    }
+    },
 
     ['Families'] = {
         ['Auto Roll'] = {
@@ -178,3 +178,18 @@ getgenv().Configs = {
     },
 }
 ```
+
+<Tip>
+  ด้านล่างสุดของคอนฟิก ให้ใส่สคริปต์ของเราลงไปได้เลย ตัวอย่าง:
+</Tip>
+
+<CodeGroup>
+
+```text Example
+-- ใส่คอนฟิกไก่ตันลงไปแทนตรงนี้เลย
+
+_G.Authorize = "Enter_Key"
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/0fbaa2aa75e1ef5d4da3dd2e849494c8.lua")){'Exclusive'}
+```
+
+</CodeGroup>
