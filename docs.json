@@ -98,8 +98,9 @@
           {
             "group": "สำหรับคนใช้ไก่ตัน",
             "pages": [
-              "config-th",
               "what-kaitan-get",
+              "config-th",
+              "edit-config-th",
               "perks-th",
               "familys-th",
               "cosmetics-th"
