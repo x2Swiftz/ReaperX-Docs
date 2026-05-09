@@ -71,7 +71,6 @@
           },
           {
             "group": "เริ่มต้นการใช้งาน",
-            "icon": "key-skeleton",
             "pages": [
               "redeem-keys-th",
               "get-scripts-th",
