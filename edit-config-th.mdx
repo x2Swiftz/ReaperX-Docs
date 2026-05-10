@@ -4,7 +4,50 @@ title: "วิธีแก้ไขคอนฟิก"
 description: "รวมวิธีการแก้ไขคอนฟิกต่างๆทั้งหมด เผื่ออยากแก้อะไรเพิ่มเติม"
 ---
 
+<iframe src="https://www.youtube.com/embed/gqeUSNv78Us" title="YouTube video player" frameborder="0" className="w-full aspect-video rounded-xl" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
+
+## ✅ วิธีการเปิดปิดใช้งานฟังชั่นนั้นๆในคอนฟิก
+
+ให้อ่านโค้ด 2 บรรทัดด้านล่างนี้ :
+
 ```java lines
-true = เปิดฟังชั่นใช้งาน
-false = ปิดฟังชั่นที่ไม่อยากใช้งาน
+ถ้าเป็น true = เปิดฟังชั่นใช้งาน
+ถ้าเป็น false = ปิดฟังชั่นที่ไม่อยากใช้งาน
+```
+
+### 📝 ตัวอย่างเวลาแก้ไขคอนฟิก :
+
+```javascript
+// ตัวอย่างคอนฟิกตอนแรก
+['Colossal Raid'] = false,
+
+// หลังแก้ต้องเป็นแบบนี้
+['Colossal Raid'] = true,
+```
+
+### ➕ ถ้าจะเพิ่มเข้าไปในคอนฟิกทำยังไง
+
+เช่น ผมจะให้มันล็อคตอนได้ตระกูล Yeager เพิ่มด้วย
+
+```javascript
+// ตัวอย่างคอนฟิกตอนแรก
+        ['Auto Roll'] = {
+            ['Enabled'] = true,
+            ['Lock Spins'] = 0,
+            ['Families'] = {
+                'Fritz',
+                'Helos',
+                'Ackerman',
+            },
+
+// หลังแก้ต้องเป็นแบบนี้
+        ['Auto Roll'] = {
+            ['Enabled'] = true,
+            ['Lock Spins'] = 0,
+            ['Families'] = {
+                'Fritz',
+                'Helos',
+                'Ackerman',
+				'Yeager',
+            },
 ```
