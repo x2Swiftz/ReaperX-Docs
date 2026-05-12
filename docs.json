@@ -143,6 +143,6 @@
     "decoration": "grid"
   },
   "thumbnails": {
-    "background": "/images/hero-dark.png"
+    "appearance": "dark"
   }
 }
