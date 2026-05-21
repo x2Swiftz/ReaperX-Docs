@@ -74,7 +74,8 @@
             "pages": [
               "redeem-keys-th",
               "get-scripts-th",
-              "reset-hwid-th"
+              "reset-hwid-th",
+              "error-code-th"
             ]
           },
           {
