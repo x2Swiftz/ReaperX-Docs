@@ -100,8 +100,8 @@
           {
             "group": "สำหรับคนใช้ไก่ตัน",
             "pages": [
-              "config-th",
               "config-th-zombie",
+              "config-th",
               "what-kaitan-get",
               "edit-config-th",
               "perks-th",
