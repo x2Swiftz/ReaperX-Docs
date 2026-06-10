@@ -11,6 +11,72 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "ภาษาไทย",
+        "groups": [
+          {
+            "group": "ยินดีต้อนรับ",
+            "pages": [
+              "Overview-th",
+              "compatibility-th"
+            ]
+          },
+          {
+            "group": "เริ่มต้นการใช้งาน",
+            "pages": [
+              "redeem-keys-th",
+              "get-scripts-th",
+              "reset-hwid-th",
+              "error-code-th"
+            ]
+          },
+          {
+            "group": "วิธีใช้ Attack on Titan",
+            "pages": [
+              "auto-farm-th",
+              "auto-farm-raids-th",
+              "autoexec-setup-th",
+              "webhook-setup-th"
+            ]
+          },
+          {
+            "group": "วิธีใช้ Universal Tower Defense X",
+            "pages": [
+              "how-to-use-utdx"
+            ]
+          },
+          {
+            "group": "ปัญหา Attack on Titan",
+            "pages": [
+              "auto-join-not-works-th",
+              "auto-retry-not-works-th",
+              "auto-leave-not-works",
+              "why-am-i-dying-on-colossal-th",
+              "downgrade-th"
+            ]
+          },
+          {
+            "group": "ไก่ตัน Attack on Titan",
+            "pages": [
+              "config-th",
+              "what-kaitan-get",
+              "edit-config-th",
+              "perks-th",
+              "familys-th",
+              "cosmetics-th"
+            ]
+          },
+          {
+            "group": "ข้อมูลเพิ่มเติม",
+            "pages": [
+              "config-th-zombie",
+              "support-th",
+              "faq-th",
+              "tos-th"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "English",
         "groups": [
           {
@@ -58,70 +124,13 @@
             ]
           }
         ]
-      },
-      {
-        "tab": "ภาษาไทย",
-        "groups": [
-          {
-            "group": "ยินดีต้อนรับ",
-            "pages": [
-              "Overview-th",
-              "compatibility-th"
-            ]
-          },
-          {
-            "group": "เริ่มต้นการใช้งาน",
-            "pages": [
-              "redeem-keys-th",
-              "get-scripts-th",
-              "reset-hwid-th",
-              "error-code-th"
-            ]
-          },
-          {
-            "group": "รวมวิธีการใช้งานต่างๆ",
-            "pages": [
-              "auto-farm-th",
-              "auto-farm-raids-th",
-              "autoexec-setup-th",
-              "webhook-setup-th"
-            ]
-          },
-          {
-            "group": "รวมปัญหาต่างๆ",
-            "pages": [
-              "auto-join-not-works-th",
-              "auto-retry-not-works-th",
-              "auto-leave-not-works",
-              "why-am-i-dying-on-colossal-th",
-              "downgrade-th"
-            ]
-          },
-          {
-            "group": "สำหรับคนใช้ไก่ตัน",
-            "pages": [
-              "config-th-zombie",
-              "config-th",
-              "what-kaitan-get",
-              "edit-config-th",
-              "perks-th",
-              "familys-th",
-              "cosmetics-th"
-            ]
-          },
-          {
-            "group": "ข้อมูลเพิ่มเติม",
-            "pages": [
-              "support-th",
-              "faq-th",
-              "tos-th"
-            ]
-          }
-        ]
       }
     ]
   },
-  "logo": "https://reaperx.pro/images/logo/no-text-space.png",
+  "logo": {
+    "light": "https://reaperx.pro/images/logo/no-text-space.png",
+    "dark": "https://reaperx.pro/images/logo/no-text-space.png"
+  },
   "navbar": {
     "links": [
       {
