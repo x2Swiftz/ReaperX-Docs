@@ -41,7 +41,9 @@
           {
             "group": "วิธีใช้ Universal Tower Defense X",
             "pages": [
-              "how-to-use-utdx"
+              "how-to-use-utdx",
+              "utdx-macro",
+              "utdx-game-settings"
             ]
           },
           {
