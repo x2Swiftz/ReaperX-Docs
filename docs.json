@@ -31,14 +31,6 @@
             ]
           },
           {
-            "group": "วิธีใช้ Attack on Titan",
-            "pages": [
-              "auto-farm-th",
-              "auto-farm-raids-th",
-              "webhook-setup-th"
-            ]
-          },
-          {
             "group": "วิธีใช้ Anime Expeditions",
             "pages": [
               "how-to-use-ae",
@@ -52,6 +44,23 @@
               "how-to-use-utdx",
               "utdx-macro",
               "utdx-game-settings"
+            ]
+          },
+          {
+            "group": "ข้อมูลเพิ่มเติม",
+            "pages": [
+              "config-th-zombie",
+              "support-th",
+              "faq-th",
+              "tos-th"
+            ]
+          },
+          {
+            "group": "วิธีใช้ Attack on Titan",
+            "pages": [
+              "auto-farm-th",
+              "auto-farm-raids-th",
+              "webhook-setup-th"
             ]
           },
           {
@@ -73,15 +82,6 @@
               "perks-th",
               "familys-th",
               "cosmetics-th"
-            ]
-          },
-          {
-            "group": "ข้อมูลเพิ่มเติม",
-            "pages": [
-              "config-th-zombie",
-              "support-th",
-              "faq-th",
-              "tos-th"
             ]
           }
         ]
