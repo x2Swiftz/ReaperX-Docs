@@ -27,7 +27,8 @@
               "get-scripts-th",
               "reset-hwid-th",
               "error-code-th",
-              "autoexec-setup-th"
+              "autoexec-setup-th",
+              "how-to-use-2-scripts"
             ]
           },
           {
@@ -51,7 +52,6 @@
           {
             "group": "ข้อมูลเพิ่มเติม",
             "pages": [
-              "config-th-zombie",
               "support-th",
               "faq-th",
               "tos-th"

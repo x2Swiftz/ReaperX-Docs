@@ -1,0 +1,22 @@
+---
+title: "วิธีใช้สคริปต์ 2 แมพ 2 จอ"
+icon: "user"
+description: "วิธีการใช้สคริปต์ 2 แมพ ใน 2 ไอดี ทำยังไงบ้าง?"
+---
+
+### ใส่สคริปต์นี้ลงไปใน AutoExec
+
+และดูคลิปวิดิโอสอนด้านล่างนี้ เพื่อให้เข้าใจวิธีการทำ
+
+```javascript
+local Players = game:GetService("Players")
+local LocalPlayer = Players.LocalPlayer
+
+if LocalPlayer.Name == "x2Swiftz" then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Script_1.lua"))()
+else
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Script_2.lua"))()
+end
+```
+
+<iframe src="https://www.youtube.com/embed/8XcxtVUumlE" title="YouTube video player" frameborder="0" className="w-full aspect-video rounded-xl" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen />
