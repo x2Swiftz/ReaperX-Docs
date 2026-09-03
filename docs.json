@@ -120,11 +120,12 @@
             "group": "Getting Started",
             "icon": "key-skeleton",
             "pages": [
-              "redeem-keys"
+              "redeem-keys",
+              "get-scripts-th-2"
             ]
           },
           {
-            "group": "Farming Configuration",
+            "group": "Dungeon Quest",
             "pages": [
               "auto-farm",
               "webhook-setup",
