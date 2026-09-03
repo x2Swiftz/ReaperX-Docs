@@ -1,58 +1,20 @@
 ---
-title: "Auto Farm Setup"
+title: "Auto Farm"
 icon: "robot"
 ---
 
 ### ✅ Start From Level 1
 
-Go to the **Lobby** tab and enable both `Select Slot` and `Auto Select Slot` first.<br />This helps the script choose the correct character for farming…
+Create a Dungeon to farm by choosing the **Dungeon** and **Difficulty** you can handle 
 
-<Tip>
-  You can enter a Private Server code to get an extra +5% EXP, GOLD, and LUCK bonus.
-</Tip>
+If you can't finish it before time runs out, I recommend farming the previous Dungeon first to level up
 
 <img
-  src="/images/image-20.png"
-  alt="Image"
-  title="Image"
+  src="/images/Screenshot-2026-09-03-102930.png"
+  alt="Screenshot 2026 09 03 102930"
+  title="Screenshot 2026 09 03 102930"
   className="mx-auto"
-  style={{ width:"69%" }}
-/>
-
-If you use an auto rejoin program and Roblox crashes or disconnects, it will automatically rejoin and select your character for you right away when entering the game. Super easy and stress-free — no need to wake up and reopen everything again.
-
-Now, how do you make it enter stages automatically?
-
-Enable `Auto Select Boost Mission` so it joins the current **Boost Rewards** stage automatically.
-
-<Tip>
-  Recommend enabling every Modifier option to make your farming faster.
-</Tip>
-
-<img
-  src="/images/image-21.png"
-  alt="Image"
-  title="Image"
-  className="mx-auto"
-  style={{ width:"70%" }}
-/>
-
-Also enable `Auto Select Best Grade` so it picks the highest difficulty your account can enter. As your level gets higher, it will automatically join harder missions over time, but...
-
-### 🔄 How Do I Make It Move to Harder Stages?
-
-Set `Current Retry` to any number you want.<br />Personally, I use **5**.
-
-That means after replaying the stage 5 times, the script will return to the Lobby and switch to a harder stage or another stage that currently has Boost Rewards.
-
-Most importantly, don’t forget to enable `Auto Leave When Retry Complete` or this feature will not work.
-
-<img
-  src="/images/image-22.png"
-  alt="Image"
-  title="Image"
-  className="mx-auto"
-  style={{ width:"74%" }}
+  style={{ width:"79%" }}
 />
 
 ### ⚙️ After Everything Is Ready
@@ -60,70 +22,32 @@ Most importantly, don’t forget to enable `Auto Leave When Retry Complete` or t
 Go to the `Auto Farm` tab and enable:
 
 - `Auto Farm`
-- `Auto Reload`
-- `Auto Refills`
+- `Auto Dodge`
+- `Auto Attack`
+- `Auto Skills`
 
-<Tip>
-  If you want to use Thunder Spears, you can enable `Auto Equip Thunder Spears` in the `Lobby` tab.
-</Tip>
+Our Auto Farm works better with the Mage Class than Warrior. While dodging skills, Mage can keep casting skills from far away. Warrior needs to get close to the enemies for their skills to hit
+
+<img
+  src="/images/Screenshot-2026-09-03-103721.png"
+  alt="Screenshot 2026 09 03 103721"
+  title="Screenshot 2026 09 03 103721"
+  className="mx-auto"
+  style={{ width:"84%" }}
+/>
 
 <Warning>
-  Then, to make it replay forever, make sure to also enable `Auto Retry` so it works together with the `Auto Leave When Retry Complete` feature.
+  To make sure it keeps farming, don't forget to turn on **Auto Replay** so it will repeat the Dungeon
+
+  If you're worried about your inventory getting full, you can also turn on **Auto Sell** and **Auto Back to Lobby**
+
+  For example, if you set **Back to Lobby After 5 Times**, it will farm the Dungeon 5 times first, then go back to the lobby and sell your items automatically
 </Warning>
 
-### 🛡️ If You Want Safer Farming
-
-Of course our script is already safe, but I recommend setting **Safe Time** to around **25 seconds**.<br />You can lower it if you want.
-
-### 🚀 How to Farm Faster
-
-I recommend enabling both:
-
-- `Auto Use Potions`
-- `Auto Buy Potion`
-
-This can make your farming around **2x faster**.
-
 <img
-  src="/images/image-23.png"
-  alt="Image"
-  title="Image"
+  src="/images/Screenshot-2026-09-03-103859.png"
+  alt="Screenshot 2026 09 03 103859"
+  title="Screenshot 2026 09 03 103859"
   className="mx-auto"
-  style={{ width:"69%" }}
-/>
-
-Also, make sure to enable `Auto Upgrade Gear`.
-
-<img
-  src="/images/image-24.png"
-  alt="Image"
-  title="Image"
-  className="mx-auto"
-  style={{ width:"69%" }}
-/>
-
-It will automatically spend Gold to upgrade your gear whenever you return to the Lobby.<br />Keep in mind that gear cannot be upgraded while inside a Mission.
-
-<Tip>
-  I recommend using ODM Blades for farming instead of Thunder Spears, because new accounts usually have very limited Spear ammo.
-</Tip>
-
-### 👀 Recommended Setting While Watching the Farm
-
-If you leave the farm running and want to watch the gameplay sometimes, enable `Auto Hide UI` in the `Settings` tab.
-
-This will automatically hide the script menu every time you run the script, so the UI won’t block your screen.
-
-Enabling `White Screen` is recommended because when you minimize Roblox, it helps reduce GPU usage.
-
-Most importantly, if you are running multiple Roblox windows, I recommend setting the `FPS Limit` to **15**.<br />I do not recommend going lower than this because it can make farming significantly slower.
-
-If you are only running one Roblox window, setting the FPS Limit to **30** is already enough.
-
-<img
-  src="/images/image-25.png"
-  alt="Image"
-  title="Image"
-  className="mx-auto"
-  style={{ width:"66%" }}
+  style={{ width:"85%" }}
 />
