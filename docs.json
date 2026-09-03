@@ -33,6 +33,12 @@
             ]
           },
           {
+            "group": "Dungeon Quest",
+            "pages": [
+              "dungeon-quest"
+            ]
+          },
+          {
             "group": "Anime Origins",
             "pages": [
               "ao-farm",
@@ -121,22 +127,13 @@
             "group": "Farming Configuration",
             "pages": [
               "auto-farm",
-              "auto-farm-raids",
-              "auto-thunder-spears",
-              "autoexec-setup",
-              "webhook-setup"
+              "webhook-setup",
+              "autoexec-setup"
             ]
           },
           {
             "group": "Troubleshooting",
-            "pages": [
-              "auto-join-not-works",
-              "auto-retry-not-works",
-              "why-am-i-dying-on-colossal",
-              "identifier-mismatch",
-              "executor-not-support",
-              "downgrade"
-            ]
+            "pages": []
           },
           {
             "group": "Informations",
