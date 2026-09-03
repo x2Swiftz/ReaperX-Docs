@@ -11,6 +11,48 @@
   "navigation": {
     "tabs": [
       {
+        "tab": "English",
+        "groups": [
+          {
+            "group": "Introduction",
+            "pages": [
+              "Overview",
+              "compatibility"
+            ]
+          },
+          {
+            "group": "Getting Started",
+            "icon": "key-skeleton",
+            "pages": [
+              "redeem-keys",
+              "get-scripts"
+            ]
+          },
+          {
+            "group": "Dungeon Quest",
+            "pages": [
+              "auto-farm",
+              "auto-sell",
+              "webhook-setup",
+              "autoexec-setup"
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "pages": []
+          },
+          {
+            "group": "Informations",
+            "pages": [
+              "about-us",
+              "faq",
+              "support",
+              "tos"
+            ]
+          }
+        ]
+      },
+      {
         "tab": "ภาษาไทย",
         "groups": [
           {
@@ -102,47 +144,6 @@
               "perks-th",
               "familys-th",
               "cosmetics-th"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "English",
-        "groups": [
-          {
-            "group": "Introduction",
-            "pages": [
-              "Overview",
-              "compatibility"
-            ]
-          },
-          {
-            "group": "Getting Started",
-            "icon": "key-skeleton",
-            "pages": [
-              "redeem-keys",
-              "get-scripts-th-2"
-            ]
-          },
-          {
-            "group": "Dungeon Quest",
-            "pages": [
-              "auto-farm",
-              "webhook-setup",
-              "autoexec-setup"
-            ]
-          },
-          {
-            "group": "Troubleshooting",
-            "pages": []
-          },
-          {
-            "group": "Informations",
-            "pages": [
-              "about-us",
-              "faq",
-              "support",
-              "tos"
             ]
           }
         ]
