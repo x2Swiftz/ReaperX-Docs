@@ -39,7 +39,9 @@
           },
           {
             "group": "Troubleshooting",
-            "pages": []
+            "pages": [
+              "how-to-use-dqr-2"
+            ]
           },
           {
             "group": "Informations",
@@ -72,12 +74,6 @@
               "autoexec-setup-th",
               "error-code-th",
               "how-to-use-2-scripts"
-            ]
-          },
-          {
-            "group": "Dungeon Quest",
-            "pages": [
-              "dungeon-quest"
             ]
           },
           {
